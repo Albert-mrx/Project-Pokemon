@@ -6,14 +6,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/pokeIcon.png">
     <meta name="description" content="Curso de Desarrollo Web con HTML, CSS y JS"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <!-- estilo de letra -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <!--estilos css  -->
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
     <title>Proyecto Pokemon</title>
 </head>
 <body>
-    <header></header>
-    <nav></nav>
-    <main>
-    </main>
-    <footer></footer>
+    <header class="capa">
+        <main>
+            <form action="GET">
+                <img src="img/International_Pokémon_logo.svg.png" alt="logoPOkemon">
+                <article class="input-container">
+                    <label for="txt-nameUser">ingrese usuario</label>
+                    <input type="text" name="txt-nameUser">
+                    <label for="password">ingrese contraseña</label>
+                    <input type="password" name="password" id="">
+                    <button type="submit">Enviar</button>
+                </article>
+            </form>
+            <span><a href="">no tienes una cuenta?</a></span>
+        </main>
+    </header>
 </body>
 </html>
