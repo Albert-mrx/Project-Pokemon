@@ -33,23 +33,19 @@
         </nav>
     </header>
     <main>
-        <article class="body-main-container">
-            <h2>Lista de Pokemones</h2>
-            <article class="list-container">
-                <article id="pokemon-information">
-                    <img src="img/pikachu.png" alt="">
-                    <!-- description -->
-                    <article id="description">
-                        <p>
-                            aksjhfjdhfjkdshfjkdshfdsfsdjkfhjksdhfjdshf
-                            ksdjfjksdfhjkdshfjdshfjksdhfjsdhfjdshfjdsf
-                        </p>
-                    </article>
-                    <input type="button" value="Agregar a Favoritos">
-                </article>
-            </article>
-
+        <article class="pokemon-container">
+            <section>
+                <select id="pokemon-select">
+                    <option value="" id="option-container">Selecciona un Pokémon</option>
+                </select>
+                <h2 id="pokemon-name"></h2>
+                <img id="pokemon-image" width="300px">
+            </section>
+            <section class="btn-container">
+                <input type="button" value="Añadir pokemon favorito" id="btn-add">
+            </section>
         </article>
     </main>
 </body>
 </html>
+<script src="js/listpokemon.js"></script>
